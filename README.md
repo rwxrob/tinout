@@ -1,5 +1,10 @@
 # Easy Input-Output Test Specifications in YAML
 
+[![GoDoc](https://godoc.org/gitlab.com/rwx.gg/tinout?status.svg)](https://godoc.org/gitlab.com/rwx.gg/tinout)
+[![Go Report
+Card](https://goreportcard.com/badge/gitlab.com/rwx.gg/tinout)](https://goreportcard.com/report/gitlab.com/rwx.gg/tinout)
+[![Coverage](https://gocover.io/_badge/gitlab.com/rwx.gg/tinout)](https://gocover.io/gitlab.com/rwx.gg/tinout)
+
 Often testing requires a large number of inputs with specific outputs
 --- particularly when testing parsers and grammar implementations. Such
 tests are also usually required across different language
@@ -79,10 +84,6 @@ See [tests](tinout_test.go) for usage examples.
 
 ## Go (golang) Reference Implementation
 
-[![GoDoc](https://godoc.org/gitlab.com/rwx.gg/tinout?status.svg)](https://godoc.org/gitlab.com/rwx.gg/tinout)
-[![Go Report
-Card](https://goreportcard.com/badge/gitlab.com/rwx.gg/tinout)](https://goreportcard.com/report/gitlab.com/rwx.gg/tinout)
-[![Coverage](https://gocover.io/_badge/gitlab.com/rwx.gg/tinout)](https://gocover.io/gitlab.com/rwx.gg/tinout)
 
 A reference implementation in Go has been included for reference and
 import inclusion:
