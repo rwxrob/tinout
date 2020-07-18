@@ -88,17 +88,21 @@ See [tests](tinout_test.go) for usage examples.
 A reference implementation in Go has been included for reference and
 import inclusion:
 
-```go package mytest
+```go
+package mytest
 
-import ( "testing" "gitlab.com/rwx.gg/tinout")
+import (
+  "testing"
 
-// ... ```
+  "gitlab.com/rwx.gg/tinout"
+)
+
+// ...
+```
 
 ## Projects Using `tinout`
 
 The following can be good reference examples for how to use `tinout`:
 
-*
-  [`dtime`](https://gitlab.com/rwx.gg/dtime/blob/master/testdata/dtime.yaml)
-  - Easy Date/Time Formats with Duration Spans
+* [`dtime`](https://gitlab.com/rwx.gg/dtime/blob/master/testdata/dtime.yaml) - Easy Date/Time Formats with Duration Spans
 
