@@ -8,7 +8,7 @@ import (
 	"github.com/ghodss/yaml"
 )
 
-// Spec represets a test specification of inputs and outputs.
+// Spec represents a test specification of inputs and outputs.
 type Spec struct {
 	Name     string // CommonMark
 	Version  string // v0.29
