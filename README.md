@@ -1,24 +1,15 @@
 # Easy Input-Output Test Specifications in YAML
 
-[![GoDoc](https://godoc.org/gitlab.com/rwx.gg/tinout?status.svg)](https://godoc.org/gitlab.com/rwx.gg/tinout)
+[![GoDoc](https://godoc.org/github.com/rwxrob/tinout?status.svg)](https://godoc.org/github.com/rwxrob/tinout)
 [![Go Report
-Card](https://goreportcard.com/badge/gitlab.com/rwx.gg/tinout)](https://goreportcard.com/report/gitlab.com/rwx.gg/tinout)
-[![Coverage](https://gocover.io/_badge/gitlab.com/rwx.gg/tinout)](https://gocover.io/gitlab.com/rwx.gg/tinout)
+Card](https://goreportcard.com/badge/github.com/rwxrob/tinout)](https://goreportcard.com/report/github.com/rwxrob/tinout)
+[![Coverage](https://gocover.io/_badge/github.com/rwxrob/tinout)](https://gocover.io/github.com/rwxrob/tinout)
 
-Often testing requires a large number of inputs with specific outputs
---- particularly when testing parsers and grammar implementations. Such
-tests are also usually required across different language
-implementations with different testing suites and approaches. For
-testing such specifications it makes sense to maintain inputs and
-outputs in a language-agnostic way. This is one such approach.
+Often testing requires a large number of inputs with specific outputs --- particularly when testing parsers and grammar implementations. Such tests are also usually required across different language implementations with different testing suites and approaches. For testing such specifications it makes sense to maintain inputs and outputs in a language-agnostic way. This is one such approach.
 
-YAML is used as the format for the test file because of its strong
-support for multi-line data. Specifications --- which are maintained by
-human hands --- are a particularly good use case for YAML structured
-data.
+YAML is used as the format for the test file because of its strong support for multi-line data. Specifications --- which are maintained by human hands --- are a particularly good use case for YAML structured data.
 
-Any number or fields may be included, but all key names must begin with
-an initial capital letter. The following are common and expected:
+Any number or fields may be included, but all key names must begin with an initial capital letter. The following are common and expected:
 
 * `Name` - name or title of the spec
 * `Version` - semantic version of the spec being tested
@@ -94,15 +85,8 @@ package mytest
 import (
   "testing"
 
-  "gitlab.com/rwx.gg/tinout"
+  "github.com/rwxrob/tinout"
 )
 
 // ...
 ```
-
-## Projects Using `tinout`
-
-The following can be good reference examples for how to use `tinout`:
-
-* [`dtime`](https://gitlab.com/rwx.gg/dtime/blob/master/testdata/dtime.yaml) - Easy Date/Time Formats with Duration Spans
-
